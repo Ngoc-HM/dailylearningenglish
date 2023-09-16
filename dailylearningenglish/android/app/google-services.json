@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "517828137467",
+    "project_id": "dailylearningenglish-84344",
+    "storage_bucket": "dailylearningenglish-84344.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517828137467:android:52f350b874e55b39ccbb5e",
+        "android_client_info": {
+          "package_name": "com.example.dailylearningenglish"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517828137467-aplm1d8k3ch8mljfdoveb1he8lacnnu3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKJw7H4nv-znhS_htqIQI-kGTmkSRJGdE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517828137467-aplm1d8k3ch8mljfdoveb1he8lacnnu3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
