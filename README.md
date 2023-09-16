@@ -1,12 +1,12 @@
 # dailylearningenglish
 ## Installation
 
-### To run CAPALOCA locally, follow these steps:
+### To run Daily Learning English locally, follow these steps:
 
 1. Clone the repository:
-- git clone https://github.com/Capaloca-Project/CAPALOCA-Main-App.git
+- git clone https://github.com/NgocJQK/dailylearningenglish.git
 2. Navigate to the project directory:
-- cd CAPALOCA
+- cd dailylearningenglish
 3. Install dependencies:
 - flutter pub upgrade --major-versions
 - flutter pub get
@@ -16,7 +16,7 @@
 Note: Make sure you have Flutter and Dart installed on your local machine.
 
 ## Configuration
-Before running CAPALOCA, you need to set up a Firebase project and obtain the necessary configuration files. Follow these steps to configure Firebase:
+Before running Daily Learning English, you need to set up a Firebase project and obtain the necessary configuration files. Follow these steps to configure Firebase:
 
 1. Go to the Firebase Console and create a new project.
 
@@ -29,7 +29,7 @@ Before running CAPALOCA, you need to set up a Firebase project and obtain the ne
 5. Run the app using the instructions mentioned in the Installation section.
 
 ## Contributions
-Contributions to CAPALOCA are welcome! If you find a bug or have a feature request, please open an issue on the GitHub repository. If you would like to contribute code, feel free to open a pull request.
+Contributions to Daily Learning English are welcome! If you find a bug or have a feature request, please open an issue on the GitHub repository. If you would like to contribute code, feel free to open a pull request.
 
 ## License
 This project is licensed under the MIT License.
