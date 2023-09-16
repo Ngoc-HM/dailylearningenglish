@@ -1,6 +1,4 @@
 # dailylearningenglish
-# dailylearningenglish
-
 ## Installation
 
 ### To run CAPALOCA locally, follow these steps:
