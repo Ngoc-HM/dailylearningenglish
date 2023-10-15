@@ -1,4 +1,5 @@
 import 'package:englishapp/pages/home/myhomepage.dart';
+//import 'package:englishapp/pages/home/myhomepageui.dart';
 import 'package:flutter/material.dart';
 
 class StartedTips extends StatefulWidget {
@@ -69,6 +70,30 @@ class _StartedTips extends State<StartedTips> {
                 ),
               ),
             ),
+            SizedBox(
+              height: 20,
+            ),
+            // Container(
+            //   width: 343,
+            //   height: 48,
+            //   child: ElevatedButton(
+            //     onPressed: () {
+            //       Navigator.push(
+            //           context,
+            //           MaterialPageRoute(
+            //               builder: (_) => MyHomePageUI(
+            //                     title: '',
+            //                   )));
+            //     },
+            //     child: Text("Next UI 2"),
+            //     style: ElevatedButton.styleFrom(
+            //       primary: const Color(0xFFFFFFFF),
+            //       shape: RoundedRectangleBorder(
+            //         borderRadius: BorderRadius.circular(28),
+            //       ),
+            //     ),
+            //   ),
+            // ),
           ],
         ),
       ),

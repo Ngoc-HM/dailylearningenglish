@@ -1,5 +1,9 @@
+//import 'package:englishapp/pages/connect/insert.dart';
+//import 'package:englishapp/pages/home/displaymongo.dart';
 import 'package:flutter/material.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
+import 'package:google_nav_bar/google_nav_bar.dart';
+import 'package:line_icons/line_icons.dart';
 
 class MyHomePage extends StatefulWidget {
   final String videoId = 'JSqUZFkRLr8';
@@ -21,8 +25,6 @@ class _MyHomePage extends State<MyHomePage> {
         mute: true,
       ),
     );
-    // ignore: avoid_single_cascade_in_expression_statements
-    //..addListener(_onPlayerStateChange);
   }
 
   void _onPlayerStateChange() {
@@ -31,23 +33,47 @@ class _MyHomePage extends State<MyHomePage> {
 
   Widget build(BuildContext context) {
     return Scaffold(
-        bottomNavigationBar: BottomNavigationBar(
-          items: const <BottomNavigationBarItem>[
-            BottomNavigationBarItem(
-              icon: Icon(Icons.home_outlined),
-              label: 'Home',
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.book_outlined),
-              label: 'Course',
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.person_outline),
-              label: 'Profile',
-            ),
-          ],
-          selectedItemColor: Colors.blue,
-        ),
+        bottomNavigationBar: GNav(
+            backgroundColor: Colors.white,
+            color: Colors.black,
+            activeColor: Colors.black,
+            tabBackgroundColor: const Color.fromARGB(255, 156, 129, 129),
+            gap: 8,
+            tabBorderRadius: 20,
+            iconSize: 20,
+            //tabActiveBorder: Border.all(color: Colors.black, width: 1),
+            //padding: EdgeInsets.all(16),
+            padding: EdgeInsets.symmetric(horizontal: 20, vertical: 13),
+            tabs: [
+              GButton(
+                icon: LineIcons.home,
+                iconActiveColor: Color.fromARGB(210, 95, 1, 83),
+                text: 'Home',
+                textColor: Color.fromARGB(210, 95, 1, 83),
+                backgroundColor: Color.fromARGB(255, 252, 174, 235),
+              ),
+              GButton(
+                icon: LineIcons.book,
+                iconActiveColor: Color.fromARGB(211, 161, 11, 0),
+                text: 'Likes',
+                textColor: Color.fromARGB(211, 161, 11, 0),
+                backgroundColor: Color.fromARGB(255, 241, 183, 203),
+              ),
+              GButton(
+                icon: LineIcons.search,
+                text: 'Search',
+                iconActiveColor: Color.fromARGB(255, 163, 126, 4),
+                textColor: Color.fromARGB(255, 163, 126, 4),
+                backgroundColor: Color.fromARGB(255, 255, 229, 153),
+              ),
+              GButton(
+                icon: LineIcons.user,
+                text: 'Profile',
+                iconActiveColor: Color.fromARGB(255, 0, 85, 0),
+                textColor: Color.fromARGB(255, 0, 85, 0),
+                backgroundColor: Color.fromARGB(255, 153, 255, 153),
+              )
+            ]),
         body: SingleChildScrollView(
             child: Container(
           //height: constraints.maxHeight - bottomNavigationBar.preferredSize.height,
@@ -92,7 +118,14 @@ class _MyHomePage extends State<MyHomePage> {
                 //MainAxisAlignment mainAxisAlignment = MainAxisAlignment.start,
                 children: [
                   ElevatedButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        // Navigator.push(
+                        //     context,
+                        //     MaterialPageRoute(
+                        //         builder: (_) => MongoInsert(
+                        //             //title: '',
+                        //             )));
+                      },
                       child: Container(
                         child: Column(
                           children: [
@@ -143,7 +176,14 @@ class _MyHomePage extends State<MyHomePage> {
                 //MainAxisAlignment mainAxisAlignment = MainAxisAlignment.start,
                 children: [
                   ElevatedButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        // Navigator.push(
+                        //     context,
+                        //     MaterialPageRoute(
+                        //         builder: (_) => MongodbInsert(
+                        //             //title: '',
+                        //             )));
+                      },
                       child: Container(
                         child: Column(
                           children: [

@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "64dcbc04d637f7dafd33e3e8"
+  },
+  "fullname": "Vương Tiến Đạt",
+  "email": "jeendeet@gmail.com",
+  "password": "abc123",
+  "createdAt": {
+    "$date": "2023-08-16T12:07:32.668Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-16T12:07:32.668Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64dcbf8b3f60640f25fd7f2c"
+  },
+  "fullname": "Đặng Linh Nga",
+  "email": "nga@gmail.com",
+  "password": "12345",
+  "createdAt": {
+    "$date": "2023-08-16T12:22:35.979Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-16T12:22:35.979Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e080fe17ff7ea2592b06f0"
+  },
+  "fullname": "Hoàng Minh Ngọc",
+  "email": "minhngocyn1@gmail.com",
+  "password": "ngoc123",
+  "createdAt": {
+    "$date": "2023-08-19T08:44:46.149Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-19T08:44:46.149Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "64ede3e162f5dbfa79e0b362"
+  },
+  "email": "jeendeet@gmail.com",
+  "total": [
+    "go",
+    "study"
+  ],
+  "favour": [
+    "go"
+  ]
+}]
