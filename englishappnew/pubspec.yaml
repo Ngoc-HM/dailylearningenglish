@@ -44,6 +44,9 @@ dependencies:
   flutter_svg: ^2.0.7
   mongo_dart: ^0.7.3
   faker: ^2.1.0
+  sizer: ^2.0.15
+  auto_size_text: ^3.0.0
+  easy_localization: ^3.0.3
 
 dev_dependencies:
   flutter_test:
@@ -74,6 +77,11 @@ flutter:
     - assets/images/home/
     - assets/images/explore/
     - assets/images/explore/search.png
+    - assets/images/home/header.png
+    - assets/
+    - assets/images/categlories/
+    - assets/images/test/
+
 
   # To add assets to your application, add an assets section, like this:
   # assets:
